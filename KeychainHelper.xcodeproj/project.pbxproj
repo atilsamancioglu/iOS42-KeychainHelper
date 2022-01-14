@@ -13,6 +13,8 @@
 		FC03DF6B2791D9B600E16FFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC03DF692791D9B600E16FFF /* Main.storyboard */; };
 		FC03DF6D2791D9B700E16FFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC03DF6C2791D9B700E16FFF /* Assets.xcassets */; };
 		FC03DF702791D9B700E16FFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC03DF6E2791D9B700E16FFF /* LaunchScreen.storyboard */; };
+		FC03DF782791D9F600E16FFF /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03DF772791D9F600E16FFF /* KeychainHelper.swift */; };
+		FC03DF7A2791DAEC00E16FFF /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03DF792791DAEC00E16FFF /* Auth.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FC03DF6C2791D9B700E16FFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC03DF6F2791D9B700E16FFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC03DF712791D9B700E16FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC03DF772791D9F600E16FFF /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
+		FC03DF792791DAEC00E16FFF /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				FC03DF632791D9B600E16FFF /* AppDelegate.swift */,
 				FC03DF652791D9B600E16FFF /* SceneDelegate.swift */,
 				FC03DF672791D9B600E16FFF /* ViewController.swift */,
+				FC03DF772791D9F600E16FFF /* KeychainHelper.swift */,
+				FC03DF792791DAEC00E16FFF /* Auth.swift */,
 				FC03DF692791D9B600E16FFF /* Main.storyboard */,
 				FC03DF6C2791D9B700E16FFF /* Assets.xcassets */,
 				FC03DF6E2791D9B700E16FFF /* LaunchScreen.storyboard */,
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC03DF7A2791DAEC00E16FFF /* Auth.swift in Sources */,
 				FC03DF682791D9B600E16FFF /* ViewController.swift in Sources */,
 				FC03DF642791D9B600E16FFF /* AppDelegate.swift in Sources */,
 				FC03DF662791D9B600E16FFF /* SceneDelegate.swift in Sources */,
+				FC03DF782791D9F600E16FFF /* KeychainHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
